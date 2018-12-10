@@ -3,5 +3,5 @@
  */
 
 GtkWidget* create_windows1 (void);
-GtkWidget* create_attention (void);
 GtkWidget* create_admin (void);
+GtkWidget* create_profilemodifier (void);

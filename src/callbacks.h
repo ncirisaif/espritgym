@@ -90,3 +90,179 @@ on_enregs1_clicked                     (GtkButton       *button,
 void
 on_button2_clicked                     (GtkButton       *button,
                                         gpointer         user_data);
+
+gboolean
+on_windows1_enter_notify_event         (GtkWidget       *widget,
+                                        GdkEventCrossing *event,
+                                        gpointer         user_data);
+
+void
+on_Modifierprofile_clicked             (GtkButton       *button,
+                                        gpointer         user_data);
+
+gboolean
+on_profilemodifier_enter_notify_event  (GtkWidget       *widget,
+                                        GdkEventCrossing *event,
+                                        gpointer         user_data);
+
+void
+on_enregistrerinfo_clicked             (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_afficherRDV_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_supprimerRDV_clicked                (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_ajouterrdv_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quitterrdv_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_ajouterRDV_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_windows1_show                       (GtkWidget       *widget,
+                                        gpointer         user_data);
+
+void
+on_profilemodifier_show                (GtkWidget       *widget,
+                                        gpointer         user_data);
+
+gboolean
+on_windows1_enter_notify_event         (GtkWidget       *widget,
+                                        GdkEventCrossing *event,
+                                        gpointer         user_data);
+
+void
+on_quitterinfo_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_Modifierprofile_clicked             (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_deconnects1_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quitterinfo_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quittertree_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quitterss1_clicked                  (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quittertree_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quittrermodifier_clicked            (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_quitterinfo_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_ajtrdv_clicked                      (GtkButton       *button,
+                                        gpointer         user_data);
+
+gboolean
+on_ajtrdv_enter_notify_event           (GtkWidget       *widget,
+                                        GdkEventCrossing *event,
+                                        gpointer         user_data);
+
+void
+on_treeviews1_row_activated            (GtkTreeView     *treeview,
+                                        GtkTreePath     *path,
+                                        GtkTreeViewColumn *column,
+                                        gpointer         user_data);
+
+gboolean
+on_treeviews1_select_cursor_row        (GtkTreeView     *treeview,
+                                        gboolean         start_editing,
+                                        gpointer         user_data);
+
+void
+on_modifierrdv_clicked                 (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_item3_activate                      (GtkMenuItem     *menuitem,
+                                        gpointer         user_data);
+
+gboolean
+on_treeviews1_button_press_event       (GtkWidget       *widget,
+                                        GdkEventButton  *event,
+                                        gpointer         user_data);
+
+void
+on_item3_activate                      (GtkMenuItem     *menuitem,
+                                        gpointer         user_data);
+
+gboolean
+on_treeviews1_toggle_cursor_row        (GtkTreeView     *treeview,
+                                        gpointer         user_data);
+
+gboolean
+on_treeviews1_select_cursor_row        (GtkTreeView     *treeview,
+                                        gboolean         start_editing,
+                                        gpointer         user_data);
+
+void
+on_treeviews1_selection_get            (GtkWidget       *widget,
+                                        GtkSelectionData *data,
+                                        guint            info,
+                                        guint            time,
+                                        gpointer         user_data);
+
+void
+on_test1_clicked                       (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_enrmodification_clicked             (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_annulermodification_clicked         (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_validers1_clicked                   (GtkButton       *button,
+                                        gpointer         user_data);
+
+gboolean
+on_heurerdv_popdown                    (GtkComboBox     *combobox,
+                                        gpointer         user_data);
+
+void
+on_checkbutton1sss_toggled             (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
+
+void
+on_checkbutton2sss_toggled             (GtkToggleButton *togglebutton,
+                                        gpointer         user_data);
+
+void
+on_checkbutton1sss_pressed             (GtkButton       *button,
+                                        gpointer         user_data);
+
+void
+on_checkbutton1sss_released            (GtkButton       *button,
+                                        gpointer         user_data);
